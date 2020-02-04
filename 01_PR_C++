@@ -1,0 +1,15 @@
+/*El primer programa */
+/*A continuacion indicamos las bibliotecas a usar*/
+#include<stdio.h>//standard imput output header
+#include<stdlib.h>
+int main(){//Funci[on principal
+		printf("Hola mundo\n\n");
+		printf("Este es mi primer programa\n");
+		//"printf"pertenece a la biblioteca stdio
+		printf("\npulse intro para finalizar.");
+		getchar();
+		//La línea anterior detiene la ejecución 
+		//de programa hasta que pulsemos la
+		//tecla Intro o Enter. 
+	return 0;
+}
