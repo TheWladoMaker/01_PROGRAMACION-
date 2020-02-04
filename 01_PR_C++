@@ -11,5 +11,6 @@ int main(){//Funci[on principal
 		//La línea anterior detiene la ejecución 
 		//de programa hasta que pulsemos la
 		//tecla Intro o Enter. 
+		getchar ();
 	return 0;
 }
